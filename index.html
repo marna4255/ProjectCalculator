@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   
+    
+    
+    <h3>Simple Calculator</h3>
+    <input class="box" type="text" id="res" value="0" onkeypress="addDigit()">
+    <button class="operator" onclick="doOper()">%</button>
+    <button class="operator" onclick="doOper()">**</button>
+    <button class="clear" onclick="doOn()">on</button>
+    <button class="clear" onclick="doOff()">off</button>
+    <br>
+      
+    <button class="button" onclick="addDigit()">7</button>
+    <button class="button" onclick="addDigit()">8</button>
+    <button class="button" onclick="addDigit()">9</button>
+    <button class="operator" onclick="doOper()">/</button>
+    <br>
+       
+    <button class="button" onclick="addDigit()">4</button>
+    <button class="button" onclick="addDigit()">5</button>
+    <button class="button" onclick="addDigit()">6</button>
+    <button class="operator" onclick="doOper()">x</button>
+    <br>
+
+    <button class="button" onclick="addDigit()">1</button>
+    <button class="button" onclick="addDigit()">2</button>
+    <button class="button" onclick="addDigit()">3</button>
+    <button class="operator" onclick="doOper()">-</button>
+    <br>
+
+    <button class="button" onclick="addDigit()">0</button>
+    <button class="button" onclick="addDigit()">.</button>
+    <button class="operator" onclick="doCalc()">=</button>
+    <button class="operator" onclick="doOper()">+</button>
+
+   
+</body>
+</html>
